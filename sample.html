@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Playwright Locator Practice</title>
+</head>
+<body>
+
+    <h1>Playwright Locator Practice</h1>
+
+    <!-- Role + Label -->
+    <form id="loginForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter username">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+
+        <button type="submit">Sign In</button>
+    </form>
+
+    <!-- Text + Attribute -->
+    <div class="card" data-test-id="special-card">
+        <h2>Special Offer</h2>
+        <button>Claim Offer</button>
+    </div>
+
+    <!-- Multiple similar elements for nth(), first(), last() -->
+    <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <!-- Placeholder example -->
+    <input placeholder="Search here..." type="search">
+
+    <!-- ARIA role example -->
+    <button role="button" aria-label="Submit Form">Submit</button>
+
+    <!-- Example for XPath -->
+    <div>
+        <button class="xpath-button">XPath Button</button>
+    </div>
+
+    <!-- Disabled element for state filtering -->
+    <input type="text" disabled placeholder="Disabled input">
+
+</body>
+</html>
